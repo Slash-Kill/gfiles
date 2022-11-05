@@ -8,7 +8,7 @@
 <body>
 <div class="w3-bar w3-black">
   <a href="/" class="w3-bar-item w3-button">Home</a>
-  <a href="/newlist.html" class="w3-bar-item w3-button">New List</a>
+  <a href="/newlist.html" class="w3-bar-item w3-button w3-right">New List</a>
   <input type="text" class="w3-bar-item w3-input" id="gsearchbar" onkeyup="document.querySelectorAll('#glist>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" />
 </div>
 <h1 style="text-align: center;">Gfiles</h1>
