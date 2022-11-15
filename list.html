@@ -9,12 +9,12 @@
 <div class="w3-bar w3-black">
   <a href="/" class="w3-bar-item w3-button">Home</a>
   <a href="/newlist.html" class="w3-bar-item w3-button">New List</a>
-  <input type="text" class="w3-bar-item w3-input w3-right" id="gsearchbar" onkeyup="document.querySelectorAll('#glist>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" />
 </div>
 <h1 style="text-align: center;">Gfiles</h1>
 <h2 style="text-align: center;"><a href="./newlist.html">New List of Games</a></h2>
 <div class="container">
 <div class="box">
+<input type="text" id="gsearchbar" onkeyup="document.querySelectorAll('#glist>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" />
 <div id="glist">
 <h2>HTML5 Games</h2>
 <a href="./gfiles/html5/paper.html">Paper.io</a>
