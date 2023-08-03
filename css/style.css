@@ -79,8 +79,8 @@ a:hover {
 	color: red;
 }
 
-a::after {
-	content: "\a";
+a:after {
+	content: "</br>";
 }
 
 p { 
