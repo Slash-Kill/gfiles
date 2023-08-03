@@ -80,7 +80,7 @@ a:hover {
 }
 
 a:after {
-	content: "</br>";
+	white-space: pre;
 }
 
 p { 
