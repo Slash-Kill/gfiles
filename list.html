@@ -12,8 +12,8 @@
 <div class="content clearfix">
 <h1 style="text-align: center;">Gfiles</h1>
 <div id="glist" class="col one">
-<h2>HTML5 Games</h2>
-<div class="col two">
+<button onclick="myFunction()"><h2>HTML5 Games</h2></button>
+<div class="col two" id="htmlgames">
 <a href="./gfiles/html5/run3work/index.html">Run 3</a>
 <a href="./gfiles/html5/paper.html">Paper.io</a>
 <a href="./gfiles/html5/Singleplayer_Test.html">Minecraft</a>
@@ -302,5 +302,15 @@
 </div>
 </div>
 </div>
+<script>
+  function myFunction() {
+  var x = document.getElementById("htmlgames");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </body>
 </html>
