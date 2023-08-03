@@ -73,14 +73,17 @@ h1, h2, h3 h4, h5, h6 {
 a {
 	color: white;	
 	text-decoration: none;
-	content: "";
-  	display: block;
-  	height: 0;
-  	width: 1px;
 }
 
 a:hover {
 	color: red;
+}
+
+a:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 1px;
 }
 
 p { 
