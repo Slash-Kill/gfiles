@@ -79,6 +79,10 @@ a:hover {
 	color: red;
 }
 
+a::after {
+	content: "\a";
+}
+
 p { 
 	line-height: 100%;
 	margin: 0; 
