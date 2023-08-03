@@ -54,6 +54,7 @@
 	
 html,
 body {
+	text-align: left
 	background: #383838;
 	color: #00dd00;
 	font-size: 64.5%;
