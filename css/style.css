@@ -262,6 +262,7 @@ a.button:hover {
 .expandingArea { position: relative }
 	
 .scanline {
+	pointer-events: none;
 	animation: scroll 10s 5s infinite;
 	background: -moz-linear-gradient(top,  rgba(0,221,0,0) 0%, rgba(0,221,0,1) 50%, rgba(0,221,0,0) 100%);
 	background: -webkit-linear-gradient(top,  rgba(0,221,0,0) 0%,rgba(0,221,0,1) 50%,rgba(0,221,0,0) 100%);
