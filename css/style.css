@@ -79,7 +79,7 @@ a:hover {
 	color: red;
 }
 
-a:after {
+htmlgames a:after {
   content: "";
   display: block;
   height: 0;
