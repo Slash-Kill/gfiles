@@ -9,10 +9,7 @@
 <div class="overlay"></div>
 <div class="scanline"></div>
 <h1 style="text-align: center;">Gfiles</h1>
-<div class="container">
-<div class="box">
-<input type="text" id="gsearchbar" onkeyup="document.querySelectorAll('#glist>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" />
-<div id="glist">
+<div id="glist" class="col one">
 <h2>HTML5 Games</h2>
 <a href="./gfiles/html5/run3work/index.html">Run 3</a>
 <a href="./gfiles/html5/paper.html">Paper.io</a>
@@ -287,8 +284,5 @@
 <a href="./gfiles/flash/?swf=yuriusshouseofspooks.swf">Yuriusshouseofspooks</a>
 <a href="./gfiles/flash/?swf=zombiealienparasites.swf">Zombiealienparasites</a>
 </div>
-</div>
-</div>
-<script> </script>
 </body>
 </html>
