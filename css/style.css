@@ -79,13 +79,6 @@ a:hover {
 	color: red;
 }
 
-htmlgames a:after {
-  content: "";
-  display: block;
-  height: 0;
-  width: 1px;
-}
-
 p { 
 	line-height: 100%;
 	margin: 0; 
